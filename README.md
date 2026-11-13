@@ -1,5 +1,5 @@
 ﻿
-# DocMind AI â€” Local PDF RAG Chatbot
+# DocMind AI-Local PDF RAG Chatbot
 
 DocMind AI is a local AI-powered document assistant that allows users to upload PDF files and ask questions about their content.
 
@@ -8,8 +8,6 @@ The application uses Retrieval-Augmented Generation (RAG) to combine document re
 Unlike cloud-based AI applications, DocMind AI runs locally using Ollama.
 
 ## RAG Architecture
-
-![DocMind AI RAG Architecture](images/rag-architecture.png)
 
 ![DocMind AI RAG Architecture](images/rag-architecture.png)
 
@@ -205,22 +203,21 @@ Example questions:
 - Summarize the document.
 
 ## Project Structure
-
-```text
 pdf-rag-chatbot/
-â”‚
-â”œâ”€â”€ app.py
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ README.md
-â”œâ”€â”€ .gitignore
-â”‚
-â”œâ”€â”€ images/
-â”‚   â””â”€â”€ rag-architecture.png
-â”‚
-â”œâ”€â”€ chroma_db/        # Local vector database (not tracked)
-â”œâ”€â”€ data/             # Local PDF documents (not tracked)
-â””â”€â”€ .venv/            # Python virtual environment (not tracked)
-```
+|
+|-- app.py
+|-- chatbot.py
+|-- embeddings.py
+|-- rag_pipeline.py
+|-- search.py
+|-- vector_store.py
+|
+|-- images/
+|   `-- rag-architecture.png
+|
+|-- requirements.txt
+|-- README.md
+`-- .gitignore
 
 The exact source file layout may vary. Local data, generated indexes, and virtual environment files are excluded from Git.
 
