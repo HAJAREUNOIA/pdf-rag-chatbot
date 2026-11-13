@@ -1,5 +1,5 @@
-
-# DocMind AI — Local PDF RAG Chatbot
+﻿
+# DocMind AI â€” Local PDF RAG Chatbot
 
 DocMind AI is a local AI-powered document assistant that allows users to upload PDF files and ask questions about their content.
 
@@ -8,6 +8,8 @@ The application uses Retrieval-Augmented Generation (RAG) to combine document re
 Unlike cloud-based AI applications, DocMind AI runs locally using Ollama.
 
 ## RAG Architecture
+
+![DocMind AI RAG Architecture](images/rag-architecture.png)
 
 ![DocMind AI RAG Architecture](images/rag-architecture.png)
 
@@ -137,11 +139,11 @@ https://ollama.com
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/pdf-rag-chatbot.git
+git clone https://github.com/HAJAREUNOIA/pdf-rag-chatbot.git
 cd pdf-rag-chatbot
 ```
 
-Replace `YOUR_USERNAME` with your GitHub username.
+Replace `HAJAREUNOIA` with your GitHub username.
 
 ### 2. Create a Virtual Environment
 
@@ -206,18 +208,18 @@ Example questions:
 
 ```text
 pdf-rag-chatbot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── images/
-│   └── rag-architecture.png
-│
-├── chroma_db/        # Local vector database (not tracked)
-├── data/             # Local PDF documents (not tracked)
-└── .venv/            # Python virtual environment (not tracked)
+â”‚
+â”œâ”€â”€ app.py
+â”œâ”€â”€ requirements.txt
+â”œâ”€â”€ README.md
+â”œâ”€â”€ .gitignore
+â”‚
+â”œâ”€â”€ images/
+â”‚   â””â”€â”€ rag-architecture.png
+â”‚
+â”œâ”€â”€ chroma_db/        # Local vector database (not tracked)
+â”œâ”€â”€ data/             # Local PDF documents (not tracked)
+â””â”€â”€ .venv/            # Python virtual environment (not tracked)
 ```
 
 The exact source file layout may vary. Local data, generated indexes, and virtual environment files are excluded from Git.
@@ -254,3 +256,5 @@ Models may need to be downloaded during initial setup.
 DocMind AI was developed as a practical project to explore modern Retrieval-Augmented Generation techniques.
 
 The goal was to understand and implement a complete RAG pipeline, including document preprocessing, semantic embeddings, hybrid information retrieval, neural reranking, context selection, and local language model inference.
+
+
