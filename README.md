@@ -203,21 +203,8 @@ Example questions:
 - Summarize the document.
 
 ## Project Structure
-pdf-rag-chatbot/
-|
-|-- app.py
-|-- chatbot.py
-|-- embeddings.py
-|-- rag_pipeline.py
-|-- search.py
-|-- vector_store.py
-|
-|-- images/
-|   `-- rag-architecture.png
-|
-|-- requirements.txt
-|-- README.md
-`-- .gitignore
+
+![DocMind AI Project Structure](images/project-structure.png)
 
 The exact source file layout may vary. Local data, generated indexes, and virtual environment files are excluded from Git.
 
