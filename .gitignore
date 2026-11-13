@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+chroma_db/
+data/
+*.pdf
+.env
+.env.*
+.streamlit/secrets.toml
+.vscode/
+.idea/
+*.log
+*.tmp
+reranker_test.py
